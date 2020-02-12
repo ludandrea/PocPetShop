@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/luciano_dandrea/contoso-pets/src/ContosoPets.Domain/ContosoPets.Domain.csproj": {}
+  },
+  "projects": {
+    "/home/luciano_dandrea/contoso-pets/src/ContosoPets.Domain/ContosoPets.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/luciano_dandrea/contoso-pets/src/ContosoPets.Domain/ContosoPets.Domain.csproj",
+        "projectName": "ContosoPets.Domain",
+        "projectPath": "/home/luciano_dandrea/contoso-pets/src/ContosoPets.Domain/ContosoPets.Domain.csproj",
+        "packagesPath": "/home/luciano_dandrea/.nuget/packages/",
+        "outputPath": "/home/luciano_dandrea/contoso-pets/src/ContosoPets.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/luciano_dandrea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/luciano_dandrea/.dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
